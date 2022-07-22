@@ -1,7 +1,7 @@
 ### Step One: Simplifying Expressions
 #### Simplify the following big O expressions as much as possible:
 
-O(n + 10) **O(n)** *Linear* \
+O(n + 10) <span style="color:blue">**O(n)** *Linear*</span>. \
 O(100 * n) **O(n)** *Linear* \
 O(25) **O(1)** *Constant* \
 O(n^2 + n^3) **O(n^3)** *Cubic* \
