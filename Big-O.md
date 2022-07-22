@@ -23,6 +23,7 @@ function logUpTo(n) {
 </code>
 Time Complexity: O(n)
 <br>
+<br>
 <code>
 function logAtLeast10(n) {
   for (let i = 1; i <= Math.max(n, 10); i++) {
@@ -30,9 +31,9 @@ function logAtLeast10(n) {
   }
 }
 </code>
-Time Complexity:
+Time Complexity: O(n)
 <br>
-
+<br>
 <code>
 function logAtMost10(n) {
   for (let i = 1; i <= Math.min(n, 10); i++) {
@@ -40,9 +41,9 @@ function logAtMost10(n) {
   }
 }
 </code>
-Time Complexity:
+Time Complexity: O(1)
 <br>
-
+<br>
 <code>
 function onlyElementsAtEvenIndex(array) {
   let newArray = [];
@@ -54,9 +55,9 @@ function onlyElementsAtEvenIndex(array) {
   return newArray;
 }
 </code>
-Time Complexity:
+Time Complexity: O(n)
 <br>
-
+<br>
 <code>
 function subtotals(array) {
   let subtotalArray = [];
@@ -70,9 +71,9 @@ function subtotals(array) {
   return subtotalArray;
 }
 </code>
-Time Complexity:
+Time Complexity: O(n^2)
 <br>
-
+<br>
 <code>
 function vowelCount(str) {
   let vowelCount = {};
@@ -90,7 +91,7 @@ function vowelCount(str) {
   return vowelCount;
 }
 </code>
-Time Complexity:
+Time Complexity: O(n)
 <br>
 
 ### short answer
@@ -106,4 +107,4 @@ What’s the time complexity of the .unshift array method? \
 What’s the time complexity of the .push array method? \
 What’s the time complexity of the .splice array method? \
 What’s the time complexity of the .pop array method? \
-What’s the time complexity of the Object.keys() function? \
+What’s the time complexity of the Object.keys() function? 
