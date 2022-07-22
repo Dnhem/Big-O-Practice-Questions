@@ -1,4 +1,4 @@
-### Step One: Simplifying Expressions
+### Simplifying Expressions
 #### Simplify the following big O expressions as much as possible:
 
 O(n + 10) --> **O(n)** *Linear*\
@@ -11,6 +11,8 @@ O(1000 * n * log(n) + n) --> **O(n log n)** *Logarithmic*\
 O(2^n + n^2) --> **O(2^n)** *Exponential*\
 O(5 + 3 + 1) --> **O(1)** *Constant*\
 O(n + n^(1/2) + n^2 + n * log(n)^10) --> **O(n^2)** *Quadratic*
+
+### Calculating Time Complexity
 
 <code>
 function logUpTo(n) {
@@ -75,7 +77,6 @@ Time Complexity:
 function vowelCount(str) {
   let vowelCount = {};
   const vowels = "aeiouAEIOU";
-
   for (let char of str) {
     if(vowels.includes(char)) {
       if(char in vowelCount) {
@@ -91,3 +92,18 @@ function vowelCount(str) {
 </code>
 Time Complexity:
 <br>
+
+### short answer
+
+True or false: n^2 + n is O(n^2). \
+True or false: n^2 * n is O(n^3). \
+True or false: n^2 + n is O(n). \
+What’s the time complexity of the .indexOf array method? \
+What’s the time complexity of the .includes array method? \
+What’s the time complexity of the .forEach array method? \
+What’s the time complexity of the .sort array method? \
+What’s the time complexity of the .unshift array method? \
+What’s the time complexity of the .push array method? \
+What’s the time complexity of the .splice array method? \
+What’s the time complexity of the .pop array method? \
+What’s the time complexity of the Object.keys() function? \
