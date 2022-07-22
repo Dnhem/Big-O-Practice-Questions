@@ -19,7 +19,8 @@ function logUpTo(n) {
   }
 }
 </code>
-Time Complexity: O(n)\
+Time Complexity: O(n)
+<br>
 <code>
 function logAtLeast10(n) {
   for (let i = 1; i <= Math.max(n, 10); i++) {
@@ -27,7 +28,9 @@ function logAtLeast10(n) {
   }
 }
 </code>
-Time Complexity:\
+Time Complexity:
+<br>
+
 <code>
 function logAtMost10(n) {
   for (let i = 1; i <= Math.min(n, 10); i++) {
@@ -35,7 +38,9 @@ function logAtMost10(n) {
   }
 }
 </code>
-Time Complexity:\
+Time Complexity:
+<br>
+
 <code>
 function onlyElementsAtEvenIndex(array) {
   let newArray = [];
@@ -47,7 +52,8 @@ function onlyElementsAtEvenIndex(array) {
   return newArray;
 }
 </code>
-Time Complexity:\
+Time Complexity:
+<br>
 
 <code>
 function subtotals(array) {
@@ -62,7 +68,8 @@ function subtotals(array) {
   return subtotalArray;
 }
 </code>
-Time Complexity:\
+Time Complexity:
+<br>
 
 <code>
 function vowelCount(str) {
@@ -82,4 +89,5 @@ function vowelCount(str) {
   return vowelCount;
 }
 </code>
-Time Complexity:\
+Time Complexity:
+<br>
