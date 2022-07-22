@@ -96,15 +96,16 @@ Time Complexity: O(n)
 
 ### short answer
 
-True or false: n^2 + n is O(n^2). \
-True or false: n^2 * n is O(n^3). \
-True or false: n^2 + n is O(n). \
-What’s the time complexity of the .indexOf array method? \
-What’s the time complexity of the .includes array method? \
-What’s the time complexity of the .forEach array method? \
-What’s the time complexity of the .sort array method? \
-What’s the time complexity of the .unshift array method? \
-What’s the time complexity of the .push array method? \
-What’s the time complexity of the .splice array method? \
-What’s the time complexity of the .pop array method? \
-What’s the time complexity of the Object.keys() function? 
+True or false: n^2 + n is O(n^2). --> true\
+True or false: n^2 * n is O(n^3). --> true\
+True or false: n^2 + n is O(n). --> false\
+What’s the time complexity of the .indexOf array method? --> O(n)\
+What’s the time complexity of the .includes array method? --> O(n)\
+What’s the time complexity of the .forEach array method? --> O(n)\
+What’s the time complexity of the .sort array method? --> O(n log n)\
+What’s the time complexity of the .unshift array method? --> O(n log n)\
+What’s the time complexity of the .push array method? --> O(1)\
+What’s the time complexity of the .splice array method? --> O(n) \
+What’s the time complexity of the .pop array method? --> O(1)\
+What’s the time complexity of the Object.keys() function? --> O(1) \
+What’s the space complexity of the Object.keys() function? --> O(n)
