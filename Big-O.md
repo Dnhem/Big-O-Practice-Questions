@@ -12,11 +12,13 @@ O(2^n + n^2) **O(2^n)** *Exponential*
 O(5 + 3 + 1) **O(1)** *Constant*
 O(n + n^(1/2) + n^2 + n * log(n)^10) **O(n^2)** *Quadratic*
 
+<code>
 function logUpTo(n) {
   for (let i = 1; i <= n; i++) {
     console.log(i);
   }
 }
+</code>
 Time Complexity: **O(n)**
 
 function logAtLeast10(n) {
